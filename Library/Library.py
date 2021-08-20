@@ -34,6 +34,7 @@ if __name__ == '__main__':
         print("2. Lend Books")
         print("3. Add Books")
         print("4. Return Books")
+        user_choice = input()
         if user_choice not in ['1','2','3','4']:
             print("Please enter a valid option")
             continue
